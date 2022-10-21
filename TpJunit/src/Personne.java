@@ -16,7 +16,7 @@ public class Personne{
 		this.login = this.prenom.toUpperCase().charAt(0)+this.nom;
 		this.login = login.replaceAll(" ", "");
 		this.login = login.replaceAll("-", "");
-		
+		//dshdh;
 		return login;
 		
 	}
